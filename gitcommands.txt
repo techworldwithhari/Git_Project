@@ -1,0 +1,54 @@
++++++++++++++
+Git Commands:
++++++++++++++
+
+# Initializing project folder to local git repository
+
+git init
+
+# For the first time we will download the remote repository to local repository
+
+git clone <git repository url>
+
+# to check the status of the working dir
+git status 
+
+# to pull the latest code from remote repo to local repo
+git pull
+
+# to make file from untracked to tracked and staging area 
+
+git add filename
+
+# to add the file from staging are to local git repo
+git commit -m "commit message"
+
+# it will display the commit id and who committed the code
+git log
+
+# to display how many branches are there
+git branch
+
+# to create the new branch , For example your are in the main branchand U created a new feature branch.it will create the branch
+but it will not switch new branch
+git branch <branchname>
+
+# this command is used to create a new branch and it will switched to new branch automatically
+git checkout -b <branchname>
+
+# to push the code from local repo to remote repo
+git push
+
+# it will display the featch and upstream menas your remote repository
+git remote -v 
+
+# this command will show the diff b/w old code to new code
+git diff
+
+#it will merge the code from feature branch to main branch
+git merge
+
+git rebase
+
+
+
